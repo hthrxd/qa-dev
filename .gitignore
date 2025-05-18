@@ -1,0 +1,25 @@
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# Coverage output
+coverage/
+
+# Dependency folders
+node_modules/
+
+# Lockfiles (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE/project configs
+.vscode/
+*.code-workspace
