@@ -1,0 +1,73 @@
+
+````markdown
+# 🧪 QA Dev Playground
+
+This is my dedicated automation testing sandbox, powered by:
+
+- ✅ [Cypress](https://www.cypress.io/)
+- 🎭 [Playwright](https://playwright.dev/)
+- 🌐 Node.js (managed via [Volta](https://volta.sh))
+
+---
+
+## 🔧 Setup
+
+```bash
+cd ~/qa-dev
+npm install
+````
+
+---
+
+## 🚀 Scripts
+
+| Command               | Description                |
+| --------------------- | -------------------------- |
+| `npx cypress open`    | Launch Cypress test runner |
+| `npx playwright test` | Run Playwright tests (CLI) |
+
+---
+
+## 🗂️ Structure
+
+```txt
+qa-dev/
+├── cypress/              # Cypress tests & configs
+│   ├── e2e/
+│   └── support/
+├── tests/                # Playwright test files
+├── node_modules/
+├── package.json
+├── .gitignore
+```
+
+---
+
+## 💫 Notes
+
+* All tools are installed via [Volta](https://volta.sh) for locked-in versions
+* This repo is used for learning, tinkering, and sharpening my QA engineering craft
+
+---
+
+## Made with care by [@hthrxd](https://github.com/hthrxd)
+
+````
+
+---
+
+### ✅ To Add It:
+
+```bash
+cd ~/qa-dev
+touch README.md
+open README.md  # or use your editor
+````
+
+Paste it in, save, and then:
+
+```bash
+git add README.md
+git commit -m "📝 Add QA dev project README"
+git push
+```
