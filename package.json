@@ -1,14 +1,16 @@
 {
   "name": "qa-dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Heather's QA automation playground using Cypress and Playwright.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "cypress": "npx cypress open",
+    "playwright": "npx playwright test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["QA", "Cypress", "Playwright", "automation", "testing"],
+  "author": "Heather Anderson",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
